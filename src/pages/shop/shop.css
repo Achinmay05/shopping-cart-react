@@ -24,7 +24,7 @@
 }
 
 .product img {
-    width: 400px;
+    width: 200px;
 }
 
 .product .description {
@@ -51,4 +51,22 @@
     background-color: rgb(19, 19, 19);
     color: white;
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    .products{
+        display: block;
+        margin-left: 115px;
+        
+    }
+    .product{
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .product {
+        display: block;
+        margin-right: 0;
+}
 }
